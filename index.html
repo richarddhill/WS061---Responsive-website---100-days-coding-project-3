@@ -6,16 +6,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Webfood Home Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-  <header>
+  <header class="main-header">
     <div class="logo">Webfood</div>
-    <nav>
+    <nav class="nav">
       <ul>
-        <li>Browse Meals</li>
-        <li>My Orders</li>
+        <li> <a href="#">
+            Browse Meals</a>
+        </li>
+        <li>
+          <a href="#">My Orders</a>
+        </li>
       </ul>
     </nav>
   </header>
@@ -23,20 +32,26 @@
   <main class="main">
     <h1>Browse our delicious meals</h1>
     <section class="cards">
-      <div class="card-container">
-        img
-        <div class="meal-title">
-          <h2>Risotto with Tiger Prawns</h2>
-          <a href="#" class="cart">Add to Cart</a>
-        </div>
-      </div>
-      <div class="card-container">
-        img
-        <div class="meal-title">
-          <h2>Cheeseburgers</h2>
-          <a href="#" class="cart">Add to Cart</a>
-        </div>
-      </div>
+      <ul>
+        <li>
+          <div class="card-container">
+            <img src="/images/risotto.jpg" alt="Delicious risotto">
+            <div class="meal-title">
+              <h2>Risotto with Tiger Prawns</h2>
+              <a href="#" class="cart">Add to Cart</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card-container">
+            <img src="/images/risotto.jpg" alt="">
+            <div class="meal-title">
+              <h2>Cheeseburgers</h2>
+              <a href="#" class="cart">Add to Cart</a>
+            </div>
+          </div>
+        </li>
+      </ul>
     </section>
   </main>
 </body>

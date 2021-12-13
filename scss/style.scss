@@ -2,10 +2,47 @@
 *:after,
 *:before {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: rgb(199, 199, 199);
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(44, 31, 38);
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header {
+  background-color: rgb(29, 26, 24);
+  padding: 0 20px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: rgb(185, 131, 31);
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main-header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+.nav a {
+  color: rgb(185, 131, 31);
+  font-size: 20px;
+}
+
+.nav a:hover {
+  color: rgb(228, 163, 44);
 }
